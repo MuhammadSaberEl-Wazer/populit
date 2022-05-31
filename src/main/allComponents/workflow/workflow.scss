@@ -1,0 +1,184 @@
+@import "../../main";
+
+.dark {
+  .workflow {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .workflow .flexo {
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .workflow .workflow-1 {
+    padding: 1rem 0 1rem 0;
+  }
+  .workflow .workflow-1 h2 {
+    color: $dark-text-main;
+    font-size: 3rem;
+  }
+  .workflow .workflow-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .workflow .workflow-2 p {
+    font-size: 1.5rem;
+    width: 75%;
+    color: $dark-text-second;
+  }
+
+  .workflow .workflow-3 {
+    padding: 1rem;
+  }
+
+  .workflow .workflow-3 .smally {
+    display: none !important;
+  }
+
+  .workflow .workflow-3 img {
+    width: 95%;
+  }
+
+  .workflow .workflow-3 .item-container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    transition: all $hover-time ease-in-out;
+  }
+
+  .workflow .workflow-3 .item-container-img:hover {
+    transform: scale(1.025);
+    opacity: 0.9;
+    transition: all $hover-time ease-in-out;
+  }
+
+  .workflow .workflow-3 .item-container-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 1.5rem;
+  }
+
+  .workflow .workflow-3 .item-container-text h2 {
+    color: $dark-text-main;
+    font-size: 1.9rem;
+    padding: 0rem 1rem;
+  }
+
+  .workflow .workflow-3 .item-container-text p {
+    padding: 0rem 1rem;
+    color: $dark-text-second;
+    font-size: 1.2rem;
+    width: 80%;
+    font-weight: 400;
+  }
+}
+
+.white {
+  .workflow {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .workflow .flexo {
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .workflow .workflow-1 {
+    padding: 1rem 0 1rem 0;
+  }
+  .workflow .workflow-1 h2 {
+    color: $white-text-main;
+    font-size: 3rem;
+  }
+  .workflow .workflow-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .workflow .workflow-2 p {
+    font-size: 1.5rem;
+    width: 75%;
+    color: $white-text-second;
+  }
+
+  .workflow .workflow-3 {
+    padding: 1rem;
+  }
+
+  .workflow .workflow-3 .smally {
+    display: none !important;
+  }
+
+  .workflow .workflow-3 img {
+    width: 95%;
+    border-radius: 2.5%;
+  }
+
+  .workflow .workflow-3 .item-container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    transition: all $hover-time ease-in-out;
+  }
+
+  .workflow .workflow-3 .item-container-img:hover {
+    transform: scale(1.025);
+    opacity: 0.9;
+    transition: all $hover-time ease-in-out;
+  }
+
+  .workflow .workflow-3 .item-container-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 1.5rem;
+  }
+
+  .workflow .workflow-3 .item-container-text h2 {
+    color: $white-text-main;
+    font-size: 1.9rem;
+    padding: 0rem 1rem;
+  }
+
+  .workflow .workflow-3 .item-container-text p {
+    padding: 0rem 1rem;
+    color: $white-text-second;
+    font-size: 1.2rem;
+    width: 80%;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+  .white,
+  .dark {
+    .workflow p {
+      text-align: center;
+    }
+
+    .workflow .item-text {
+      text-align: center;
+    }
+    .workflow .item-text p {
+      text-align: center;
+      margin: auto;
+    }
+
+    .workflow .workflow-3 .smally {
+      display: unset !important;
+    }
+
+    .workflow .workflow-3 .largy {
+      display: none !important;
+    }
+  }
+}

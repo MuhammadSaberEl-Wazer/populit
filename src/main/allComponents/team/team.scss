@@ -1,0 +1,218 @@
+@import "../../main";
+
+.dark {
+  .team {
+    padding: 1rem 0rem 1.5rem 0;
+  }
+
+  .team .flexo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team .team-1 {
+    padding: 2rem 0rem 0.5rem 0;
+    text-align: center;
+  }
+  .team .team-1 h2 {
+    font-size: 3rem;
+  }
+
+  .team .team-2 {
+    padding: 0.5rem 0 1rem 0;
+    text-align: center;
+    width: 50%;
+  }
+  .team .team-2 p {
+    font-size: 1.5rem;
+    color: $dark-text-second;
+  }
+
+  .team .team-3 .item-1 {
+    padding: 0;
+  }
+
+  .team .team-3 img {
+    transition: all $hover-time ease-in-out;
+  }
+
+  .team .team-3 img:hover {
+    transition: all $hover-time ease-in-out;
+    transform: scale(1.025);
+  }
+
+  .team .team-3 .item-container {
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .team .team-3 .item-container h3 {
+    padding: 1.2rem 0 0.5rem 0;
+    font-size: 2rem;
+    color: $dark-text-main;
+  }
+
+  .team .team-3 .item-container h5 {
+    padding: 0.1rem 0 0.1rem 0;
+    font-size: 1rem;
+    color: $dark-btn;
+  }
+  .team .team-3 .item-container .item-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team .team-3 .item-container .item-3 p {
+    width: 75%;
+    color: $dark-text-second;
+  }
+}
+
+.white {
+  .team {
+    padding: 1rem 0rem 1.5rem 0;
+  }
+
+  .team .flexo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team .team-1 {
+    padding: 2rem 0rem 0.5rem 0;
+    text-align: center;
+  }
+  .team .team-1 h2 {
+    font-size: 3rem;
+  }
+
+  .team .team-2 {
+    padding: 0.5rem 0 1rem 0;
+    text-align: center;
+    width: 50%;
+  }
+  .team .team-2 p {
+    font-size: 1.5rem;
+    color: $white-text-second;
+  }
+
+  .team .team-3 .item-1 {
+    padding: 0;
+  }
+
+  .team .team-3 img {
+    transition: all $hover-time ease-in-out;
+    border-radius: 1rem;
+  }
+
+  .team .team-3 img:hover {
+    transition: all $hover-time ease-in-out;
+    transform: scale(1.025);
+  }
+
+  .team .team-3 .item-container {
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .team .team-3 .item-container h3 {
+    padding: 1.2rem 0 0.5rem 0;
+    font-size: 2rem;
+    color: $white-text-main;
+  }
+
+  .team .team-3 .item-container h5 {
+    padding: 0.1rem 0 0.1rem 0;
+    font-size: 1rem;
+    color: $dark-btn;
+  }
+  .team .team-3 .item-container .item-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team .team-3 .item-container .item-3 p {
+    width: 75%;
+    color: $white-text-second;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .dark,
+  .white {
+    .team {
+      text-align: center;
+    }
+    .white .team .team-2,
+    .dark .team .team-2 {
+      width: 90%;
+    }
+    .team .team-2 p {
+      font-size: 1rem;
+      color: $dark-text-second;
+    }
+
+    .team .team-3 .item-container img {
+      max-width: 95%;
+    }
+
+    
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dark,
+  .white {
+    .team {
+      text-align: center;
+    }
+    .white .team .team-2,
+    .dark .team .team-2 {
+      width: 90%;
+    }
+    .team .team-2 p {
+      font-size: 1rem;
+      color: $dark-text-second;
+    }
+
+    .team .team-3 .item-container img {
+      max-width: 90%;
+    }
+
+    .team .team-3 .item-container {
+      max-width: 33%;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .dark,
+  .white {
+    .team {
+      text-align: center;
+    }
+    .team .team-2,
+     .team .team-2 {
+      width: 80%;
+    }
+    .team .team-2 p {
+      font-size: 1rem;
+      color: $dark-text-second;
+    }
+
+    .team .team-3 .item-container img {
+      max-width: 90%;
+    }
+
+    .team .team-3 .item-container {
+      max-width:100%;
+    }
+  }
+}

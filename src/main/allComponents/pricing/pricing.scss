@@ -1,0 +1,470 @@
+@import "../../main";
+
+.dark {
+  .pricing {
+    padding: 2rem 0 1rem 0;
+    .mini-inline-div {
+      background-color: $dark-text-second;
+      height: 0.05rem;
+      width: 100%;
+      margin: 0.5rem 0;
+      opacity: 0.2;
+    }
+
+    .flexo {
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    .pricing-1 {
+      padding: 1rem 0 1rem 0;
+    }
+    .pricing-1 h2 {
+      color: $dark-text-main;
+      font-size: 3rem;
+    }
+
+    .pricing-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .pricing-2 p {
+      text-align: center;
+      font-size: 1.5rem;
+      width: 50%;
+      color: $dark-text-second;
+    }
+
+    .pricing-3 {
+    }
+
+    .pricing-3 .item-container {
+      padding: 0rem 0.1rem;
+    }
+
+    .pricing-3 .item-container .item {
+      margin: 0.5rem;
+      padding: 1.5rem;
+      background-color: $dark-main-2;
+      text-align: left;
+    }
+
+    .pricing-3 .item-container .item .item-1 h2 {
+      color: $dark-text-main;
+      text-align: left;
+      font-size: 2.5rem;
+    }
+
+    .pricing-3 .item-container .item .item-1 span {
+      color: $dark-text-second;
+      padding: 0 0.2rem;
+    }
+
+    .pricing-3 .item-container .item .item-1 .span-2 {
+      color: $dark-text-second;
+      font-size: 1rem;
+    }
+
+    .pricing-3 .item-container .item .item-1 p {
+      color: $dark-text-second;
+    }
+
+    .pricing-3 .item-container .item .item-plan-point {
+      margin: 0;
+      padding: 0;
+    }
+
+    .pricing-3 .item-container .item .item-2 h6 {
+      margin: 1rem 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .pricing-3 .item-container .item .fa-solid {
+      background-color: #274d51;
+      color: #5dd2b5;
+      border-radius: 50%;
+      margin: 0.5rem 0.5rem;
+    }
+
+    .pricing-3 .item-container .item .item-plan > * {
+      color: $dark-text-second;
+      font-size: 1rem;
+    }
+
+    .pricing-3 .item-container .item .item-3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pricing-3 .item-container .item .item-3 button {
+      margin: 1.5rem 0 0.5rem 0;
+      padding: 0.5rem 4rem;
+      border-color: transparent;
+      background-color: $dark-btn;
+      color: $dark-text-main;
+      transition: all $hover-time ease-in-out;
+    }
+
+    .pricing-3 .item-container .item .item-3 button:hover {
+      transform: translateY(-0.1rem);
+      color: dark-text-second;
+      transition: all $hover-time ease-in-out;
+    }
+
+    .pricing-3 .item-container .item .fa-minus {
+      background-color: transparent;
+      color: $dark-text-second;
+      border-radius: 50%;
+      margin: 0.5rem 0.5rem;
+    }
+  }
+}
+
+.white {
+  .pricing {
+    padding: 2rem 0 1rem 0;
+    .mini-inline-div {
+      background-color: $white-text-second;
+      height: 0.05rem;
+      width: 100%;
+      margin: 0.5rem 0;
+      opacity: 0.2;
+    }
+
+    .flexo {
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    .pricing-1 {
+      padding: 1rem 0 1rem 0;
+    }
+    .pricing-1 h2 {
+      color: $white-text-main;
+      font-size: 3rem;
+    }
+
+    .pricing-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .pricing-2 p {
+      text-align: center;
+      font-size: 1.5rem;
+      width: 50%;
+      color: $white-text-second;
+    }
+
+    .pricing-3 .item-container {
+      padding: 0rem 0.1rem;
+    }
+
+    .pricing-3 .item-container .item {
+      margin: 0.5rem;
+      padding: 1.5rem;
+      background-color: $dark-main-2;
+      text-align: left;
+      border-radius: 1rem;
+    }
+
+    .pricing-3 .item-container .item .item-1 h2 {
+      color: $dark-text-main;
+      text-align: left;
+      font-size: 2.5rem;
+    }
+
+    .pricing-3 .item-container .item .item-1 span {
+      color: $dark-text-second;
+      padding: 0 0.2rem;
+    }
+
+    .pricing-3 .item-container .item .item-1 .span-2 {
+      color: $dark-text-second;
+      font-size: 1rem;
+    }
+
+    .pricing-3 .item-container .item .item-1 p {
+      color: $dark-text-main;
+    }
+
+    .pricing-3 .item-container .item .item-plan-point {
+      margin: 0;
+      padding: 0;
+    }
+
+    .pricing-3 .item-container .item .item-2 h6 {
+      margin: 1rem 0.5rem;
+      font-size: 1.2rem;
+      color: $dark-text-main;
+    }
+
+    .pricing-3 .item-container .item .fa-solid {
+      background-color: #274d51;
+      color: #5dd2b5;
+      border-radius: 50%;
+      margin: 0.5rem 0.5rem;
+    }
+
+    .pricing-3 .item-container .item .item-plan > * {
+      color: $dark-text-second;
+      font-size: 1rem;
+    }
+
+    .pricing-3 .item-container .item .item-3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pricing-3 .item-container .item .item-3 button {
+      margin: 1.5rem 0 0.5rem 0;
+      padding: 0.5rem 4rem;
+      border-color: transparent;
+      background-color: $dark-btn;
+      color: white;
+      transition: all $hover-time ease-in-out;
+    }
+
+    .pricing-3 .item-container .item .item-3 button:hover {
+      transform: translateY(-0.1rem);
+      color: white-text-second;
+      transition: all $hover-time ease-in-out;
+    }
+
+    .pricing-3 .item-container .item .fa-minus {
+      background-color: transparent;
+      color: $dark-text-second;
+      border-radius: 50%;
+      margin: 0.5rem 0.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .dark,
+  .white {
+    .pricing {
+
+      .pricing-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+  
+      .pricing-2 p {
+        text-align: center;
+        font-size: 1.5rem;
+        width: 50%;
+        color: $white-text-second;
+      }
+      .pricing-3 .item-container .item {
+        margin: 0.25rem;
+        padding: 1rem;
+        background-color: $dark-main-2;
+        text-align: left;
+        border-radius: 0.5rem;
+      }
+
+      .pricing-3 .item-container .item .item-1 h2 {
+        color: $dark-text-main;
+        text-align: left;
+        font-size: 2rem;
+      }
+
+      .pricing-3 .item-container .item .item-1 span {
+        color: $dark-text-second;
+        padding: 0 0.15rem;
+      }
+
+      .pricing-3 .item-container .item .item-1 .span-2 {
+        color: $dark-text-second;
+        font-size: 0.8rem;
+      }
+
+      .pricing-3 .item-container .item .item-1 p {
+        color: $dark-text-main;
+      }
+
+      .pricing-3 .item-container .item .item-plan-point {
+        margin: 0;
+        padding: 0;
+      }
+
+      .pricing-3 .item-container .item .item-2 h6 {
+        margin: 1rem 0.5rem;
+        font-size: 1rem;
+        color: $dark-text-main;
+      }
+
+      .pricing-3 .item-container .item .fa-solid {
+        background-color: #274d51;
+        color: #5dd2b5;
+        border-radius: 50%;
+        margin: 0.25rem 0.25rem;
+      }
+
+      .pricing-3 .item-container .item .item-plan > * {
+        color: $dark-text-second;
+        font-size: 0.8rem;
+      }
+
+      .pricing-3 .item-container .item .item-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .pricing-3 .item-container .item .item-3 button {
+        margin: 1rem 0 0.25rem 0;
+        padding: 0.25rem 2rem;
+        border-color: transparent;
+        background-color: $dark-btn;
+        color: white;
+        transition: all $hover-time ease-in-out;
+      }
+
+      .pricing-3 .item-container .item .item-3 button:hover {
+        transform: translateY(-0.1rem);
+        color: white-text-second;
+        transition: all $hover-time ease-in-out;
+      }
+
+      .pricing-3 .item-container .item .fa-minus {
+        background-color: transparent;
+        color: $dark-text-second;
+        border-radius: 50%;
+        margin: 0.25rem 0.25rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+}
+
+@media only screen and (max-width: 576px) {
+
+
+  .dark,
+  .white {
+    .pricing {
+
+      .pricing-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+  
+      .pricing-2 p {
+        text-align: center;
+        font-size: 1.5rem;
+        width: 80%;
+        color: $dark-text-second;
+      }
+
+
+
+      .pricing-3 .item-container{
+        display: flex;
+        justify-content: center;
+      }
+      .pricing-3 .item-container .item {
+        margin: 0.25rem;
+        padding: 1rem;
+        background-color: $dark-main-2;
+        text-align: left;
+        border-radius: 0.5rem;
+        width: 80%;
+      }
+
+      .pricing-3 .item-container .item .item-1 h2 {
+        color: $dark-text-main;
+        text-align: center;
+        font-size: 3rem;
+      }
+
+      .pricing-3 .item-container .item .item-1 span {
+        color: $dark-text-second;
+        padding: 0 0.5rem;
+      }
+
+      .pricing-3 .item-container .item .item-1 .span-2 {
+        color: $dark-text-second;
+        font-size: 1.5rem;
+      }
+
+      .pricing-3 .item-container .item .item-1 p {
+        color: $dark-text-main;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      .pricing-3 .item-container .item .item-plan-point {
+        margin: 0;
+        padding: 0;
+      }
+
+      .pricing-3 .item-container .item .item-2 h6 {
+        margin: 1rem 0.5rem;
+        font-size: 1.5rem;
+        color: $dark-text-main;
+        text-align: center;
+      }
+
+      .pricing-3 .item-container .item .fa-solid {
+        background-color: #274d51;
+        color: #5dd2b5;
+        border-radius: 50%;
+        margin: 0.25rem 0.25rem;
+      }
+
+      .pricing-3 .item-container .item .item-plan > * {
+        color: $dark-text-second;
+        font-size: 1.2rem;
+        text-align: center;
+       
+      }
+
+
+     
+
+      .pricing-3 .item-container .item .item-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .pricing-3 .item-container .item .item-3 button {
+        margin: 1.5rem 0 0.5rem 0;
+        padding: 0.25rem 2rem;
+        border-color: transparent;
+        background-color: $dark-btn;
+        color: white;
+        transition: all $hover-time ease-in-out;
+      }
+
+      .pricing-3 .item-container .item .item-3 button:hover {
+        transform: translateY(-0.1rem);
+        color: white-text-second;
+        transition: all $hover-time ease-in-out;
+      }
+
+      .pricing-3 .item-container .item .fa-minus {
+        background-color: transparent;
+        color: $dark-text-second;
+        border-radius: 50%;
+        margin: 0.5rem 0.5rem;
+      }
+    }
+  }
+}

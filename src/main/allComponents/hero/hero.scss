@@ -1,0 +1,146 @@
+@import "../../main";
+
+.dark {
+  .hero {
+    height: 100 vh;
+    padding: 5rem 0 3rem 0;
+  }
+
+  .hero .container .flexo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: red;
+  }
+
+  .hero .container .flexo .hero-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .hero .container .flexo .hero-1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .container .flexo .hero-2 h6 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 1rem 0rem 0.5rem 0rem;
+  }
+
+  .hero .container .flexo .hero-3 {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .hero .container .flexo .hero-3 button {
+    padding: 0.5rem 1rem;
+    background-color: $dark-btn;
+    border: 0.01rem transparent solid;
+    border-radius: 0.4rem;
+    color: dark-text-main;
+    font-size: 1.1rem;
+    transition: all $hover-time ease-in-out;
+  }
+
+  .hero .container .flexo .hero-3 button:hover {
+    transform: translateY(-0.1rem);
+    color: dark-text-second;
+    transition: all $hover-time ease-in-out;
+  }
+
+  .hero .flexo .hero-4 .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero .hero-4 .img-container img {
+    width: 75%;
+  }
+}
+
+.white {
+  .hero {
+    height: 100 vh;
+    padding: 5rem 0 3rem 0;
+  }
+
+  .hero .container .flexo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: red;
+  }
+
+  .hero .container .flexo .hero-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .hero .container .flexo .hero-1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .container .flexo .hero-2 h6 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 1rem 0rem 0.5rem 0rem;
+  }
+
+  .hero .container .flexo .hero-3 {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .hero .container .flexo .hero-3 button {
+    padding: 0.5rem 1rem;
+    background-color: $dark-btn;
+    border: 0.01rem transparent solid;
+    border-radius: 0.4rem;
+    color: dark-text-main;
+    font-size: 1.1rem;
+    transition: all $hover-time ease-in-out;
+  }
+
+  .hero .container .flexo .hero-3 button:hover {
+    transform: translateY(-0.1rem);
+    color: dark-text-second;
+    transition: all $hover-time ease-in-out;
+  }
+
+  .hero .flexo .hero-4 .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero .hero-4 .img-container img {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero .hero-4 .img-container img{
+    width: 100%;
+   
+  }
+}

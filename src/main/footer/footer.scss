@@ -1,0 +1,106 @@
+@import "../main.scss";
+
+.dark {
+  .footer {
+    background-color: $dark-main-2;
+    padding: 1rem 0rem;
+
+    .left-content {
+      font-size: 1rem;
+      color: $dark-text-second;
+      padding-left: 1rem;
+    }
+
+    .right-content {
+      display: flex;
+      justify-content: right;
+    }
+
+    .right-content .right-div {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .right-content .right-div a {
+      text-decoration: none;
+      color: $dark-btn;
+    }
+
+    .right-content .right-div a:hover {
+      text-decoration: unset;
+      color: white;
+    }
+  }
+}
+
+.white {
+  .footer {
+    background-color: $dark-main-2;
+    padding: 1rem 0rem;
+
+    .left-content {
+      font-size: 1rem;
+      color: $dark-text-main;
+      padding-left: 1rem;
+    }
+
+    .right-content {
+      display: flex;
+      justify-content: right;
+    }
+
+    .right-content .right-div {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .right-content .right-div a {
+      text-decoration: none;
+      color: $dark-text-main;
+    }
+
+    .right-content .right-div a:hover {
+      text-decoration: underline;
+      color: $dark-btn;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .white .footer,
+  .dark .footer {
+    text-align: center;
+
+    .left-content {
+      font-size: 1rem;
+      padding-left: 0rem;
+    }
+
+    .right-content {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 576px) {
+  .white .footer,
+  .dark .footer {
+    text-align: center;
+
+    .left-content {
+      font-size: 1rem;
+      padding-left: 0rem;
+    }
+
+    .right-content {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

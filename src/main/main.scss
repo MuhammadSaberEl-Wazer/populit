@@ -1,0 +1,46 @@
+/* Dark mood Colors */
+
+$dark-main: #161822;
+$dark-main-2: #2b2f40;
+$dark-btn: #4a61dd;
+$dark-btn-hover: #3954ee;
+$dark-text-main: #dde2f4;
+$dark-text-second: #99a1ba;
+
+$hover-time: 0.2s;
+
+/* White mood Colors */ // $white-main:;
+
+$white-main: #ffffff;
+$white-main-2: #a7a7a7;
+$white-btn: #0d6efd;
+$white-btn-hover: #0053cf;
+$white-text-main: #030303;
+$white-text-second: #242424;
+
+.dark {
+  background-color: $dark-main;
+  color: $dark-text-main;
+}
+
+.white {
+  background-color: $white-main;
+  color: $white-text-main;
+}
+
+.dark .inline-div {
+  background-color: $dark-main-2;
+  height: 0.1rem;
+  width: 100%;
+}
+
+.white .inline-div {
+  background-color: rgba(85, 85, 85, 0.3);
+  height: 0.1rem;
+  width: 100%;
+}
+
+
+.modal-backdrop{
+  z-index: 10!important;
+}
